@@ -1,0 +1,324 @@
+/*start of top area*/
+        .navContainer{
+            background-image: url("images/img5.jpg");
+            height: auto;
+            background-size: cover;
+            background-attachment: fixed;
+            color:white;
+            padding-bottom: 80px;
+        }
+        .navSectionAContainer{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .navSectionA-floatRight{
+            float: right;
+        }
+        .navSectionA{
+            padding-top:100px;
+            width: 90%;
+        }
+        .navLeft a{
+            font-size: 30px;
+            text-decoration: none;
+            color: #b2b266;
+        }
+        .navLink{
+            color: white;
+        }
+        .navLink:hover{
+            color: #5cd6d6;
+        }
+        .navRight{
+            float: right;
+            
+        }
+        .navRight a{
+            text-decoration: none;
+        }
+        .desktopNavContainer{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-top: 20px;
+        }
+        .desktopNav{
+            border-top: 2px solid #5cd6d6;
+            border-bottom: 2px solid #5cd6d6;
+            width: 90%;
+            
+        }
+        .desktopNav a{
+            display: inline-block;
+            padding: 20px 10px;
+        }
+        .fa-home{
+            color: #5cd6d6;
+        }
+        
+        .home{
+            color: #5cd6d6;
+        }
+        .fa-home,.fa-sign-in-alt,.fa-user-plus,.fa-servicestack{
+            margin-left: 15px;
+            font-size: 12px;
+        }
+        .fa-home:hover,.fa-sign-in-alt:hover,.fa-user-plus:hover,.fa-servicestack:hover{
+            color:#5cd6d6 ;
+        }
+        .navSectionA-floatLeftItem1,.navSectionA-floatLeftItem2{
+            margin-left: 10px;
+
+        }
+        .navContent{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: 150px;
+            text-align: center;
+        }
+        .navContent h1{
+            font-size: 44px;
+            color: #b2b266;
+        }
+        .navContent p{
+            font-size: 24px;
+        }
+        .navContent i{
+            height: -1px;
+            width: 300px;
+            border: 2.5px solid #5cd6d6;
+            margin-top: -20px;
+            border-radius: 10px;
+        }
+        .navContentBtn{
+            height: 43px;
+            width: 200px;
+            font-size: 18px;
+            border-radius: 8px;
+            margin-top: 40px;
+            border:1px solid transparent;
+            background-color: #5cd6d6;
+        }
+        .navContentBtn:hover{
+            border: 1px solid #5cd6d6 ;
+            color:#5cd6d6;
+            background-color: transparent;
+        }
+        .fa-phone,.fa-envelope{
+            color:#5cd6d6;
+        }
+        /*end of top area*/
+        /*start of the lorem container section*/
+        .lorem{
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+        }
+        .loremItems{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+            
+        }
+        .loremItem{
+            width: 250px;
+            height: 300px;
+            margin-left: 20px;
+            text-align: center;
+            font-size: 18.5px;
+        }
+        .loremItem a{
+            text-decoration: none;
+        }
+        .fa-eraser,.fa-cut,.fa-hand-holding-heart,.fa-rocket{
+            margin-right: 10px;
+            font-size: 30px;
+        }
+        .item1:hover h1,.item1:hover a,.item2:hover h1,.item2:hover a,.item3:hover h1,.item3:hover a,.item4:hover h1,.item4:hover a{
+            color: #5cd6d6;
+        }
+        .loremHead{
+            font-size: 35px;
+            color: #99994d;
+        }
+        /*end of the lorem container section*/
+        /*events section*/
+        .eventsContainer{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+        }
+        .event{
+            width: 270px;
+            height: auto;
+            padding-bottom: 30px;
+            margin-left: 30px;
+        }
+        .eventImage{
+            background-image: url("images/img8.jpg");
+            background-size: cover;
+            height:240px;
+        }
+        
+        
+        .imageDate{
+            border: 1px solid transparent;
+            height: 50px;
+            width: 50px;
+            background-color: white;
+            float: right;
+            margin-top: 10px;
+            margin-right: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .upcomingEvents{
+            padding-bottom: 100px;
+            padding-top: 100px;
+            text-align: center;
+            height: auto;
+        }
+        .eventsHeader{
+            margin-bottom: 60px;
+            font-size: 34px;
+            color: #222211;
+        }
+        .eventTime{
+            color: #666633;
+        }
+        .event{
+            text-align: center;
+        }
+        /*end of events section*/
+        /* start of the footer area */
+        .footerSectionAContainer{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .footerSectionA{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 60px;
+            border-bottom: 1px solid #444422;
+            width: 90%;
+        }
+        .footerLink{
+            text-decoration: none;
+            margin-left: 25px;
+            color: #5cd6d6;
+        }
+        #footerHome{
+            font-size: 20px;
+        }
+        .footerHead{
+            font-size: 35px;
+            color: #b2b266;
+        }
+        .footerSectionBContainer{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 100px;
+
+        }
+        .footerSectionBItem1,.footerSectionBItem2,.footerSectionBItem3{
+            width: 270px;
+            margin-right: 40px;
+            font-size: 19px;
+        }
+        .footerSectionBItem1_1,.footerSectionBItem1_2{
+            border-bottom: 1px solid #444422;
+        }
+        #footerPhone,#footerLocation,#footerMail{
+            margin-right: 5px;
+        }
+        .fa-map-marker-alt{
+            color:#5cd6d6 ;
+        }
+        .name{
+            width: 80%;
+            height: 38px;
+            margin-bottom: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            color: white;
+            background-color:#222211;
+            border: 1px solid black;
+            text-align: center;
+        }
+        .name:focus{
+            border: 1px solid #5cd6d6;
+        }
+        .submitBtn{
+            height: 40px;
+            width: 50%;
+            font-size: 16px;
+            background-color: #5cd6d6;
+            border: 1px solid transparent;
+            border-radius: 5px;
+        }
+        .submitBtn:hover{
+            border: 1px solid #5cd6d6;
+            background-color: transparent;
+            color: #5cd6d6;
+        }
+        
+        .fa-facebook-square,.fa-twitter,.fa-google-plus-g,.fa-linkedin{
+            font-size: 19px;
+            margin-left: 10px;
+        }
+        .fa-facebook-square:hover{
+            color: #3b5998;
+        }
+        .fa-twitter:hover{
+            color: #00acee;
+        }
+        .fa-google-plus-g:hover{
+            color: #db4a39;
+        }
+        .fa-linkedin:hover{
+            color: #0e76a8;
+        }
+        .quickLink{
+            color: #5cd6d6;
+            display: block;
+            text-decoration: none;
+            padding:10px;
+            width: 90%;
+            border-bottom: 1px solid #444422;
+            text-align: start;
+        }
+        footer{
+            background-color: #0a0f0f;
+        }
+        .footerA{
+            color: white;
+        }
+        /*end of the footer area*/
